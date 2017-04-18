@@ -16,6 +16,7 @@ For instructions/how-to, refer to the [react-boilerplate](https://github.com/rea
 - [ESlint](http://eslint.org/) (configuration is in `package.json`)
 - [BabelJS](https://babeljs.io/) (configuration is in `package.json`)
 - Use [Yarn](https://yarnpkg.com/lang/en) or [NPM](https://github.com/npm/npm)
+- [Webpack](https://webpack.js.org/) with HMR (Hot Module Reload) enabled
 - Build for production, run `yarn build` and host the content of the `build` folder in a static server.
 - SSR is also supported, see the [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate) for more info
 
