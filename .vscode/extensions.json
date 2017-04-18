@@ -1,0 +1,17 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    "Orta.vscode-jest",
+    "dbaeumer.vscode-eslint",
+    "waderyan.gitblame",
+    "donjayamanne.githistory",
+    "xabikos.javascriptsnippets",
+    "shanoor.vscode-nginx",
+    "timothymclane.react-redux-es6-snippets",
+    "xabikos.reactsnippets",
+    "robinbentley.sass-indented",
+    "superzadeh.theme-solarized-obsidian"
+  ]
+}
