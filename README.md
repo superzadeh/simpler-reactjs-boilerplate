@@ -60,3 +60,5 @@ yarn build
 - [ ] Update `internal/generators`
 - [ ] More cleanup in `internal`
 - [ ] Dockerize
+- [ ] Update dependencies
+- [ ] Enable Snyk monitoring
