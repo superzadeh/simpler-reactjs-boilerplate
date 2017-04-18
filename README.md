@@ -55,7 +55,7 @@ yarn build
 - Leaner template website
 - i18n present but not used by default (use `messages` from `react-intl`)
 
-## TODO
+## TODO (PRs are welcome)
 
 - [ ] Update `internal/generators`
 - [ ] More cleanup in `internal`
