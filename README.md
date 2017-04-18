@@ -63,3 +63,4 @@ yarn build
 - [ ] Dockerize
 - [ ] Update dependencies
 - [ ] Enable Snyk monitoring
+- [ ] Add docs for file structure/naming conventions
