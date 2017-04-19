@@ -6,8 +6,9 @@
 
 import React from 'react';
 
-export default function NotFound() {
-  return (
-    <div>Not found :(</div>
-  );
-}
+export const NotFoundPage = () => (
+  <div>Not found :(</div>
+);
+
+export default NotFoundPage;
+

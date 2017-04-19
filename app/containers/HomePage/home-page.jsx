@@ -32,13 +32,9 @@ HomePage.propTypes = {
 };
 
 export function mapDispatchToProps() {
-  return {
-
-  };
 }
 
 const mapStateToProps = createStructuredSelector({
-
 });
 
 // Wrap the component to inject dispatch and state into it

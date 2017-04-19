@@ -38,9 +38,6 @@ import configureStore from './store';
 // Import i18n messages
 import { translationMessages } from './i18n';
 
-// Import CSS reset and Global Styles
-import './global-styles';
-
 // Import routes
 import createRoutes from './routes';
 
@@ -73,7 +70,7 @@ const render = (messages) => {
           routes={rootRoute}
           render={
             // Scroll to top when going to a new page, imitating default browser
-            // behaviour
+            // behavior
             applyRouterMiddleware(useScroll())
           }
         />

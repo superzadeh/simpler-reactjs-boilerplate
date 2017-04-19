@@ -1,28 +1,23 @@
 language: node_js
 
 node_js:
-  - "6"
-
-before_script:
-  - npm install -g yarn
+  - 6
 
 script:
-  - cd $TRAVIS_BUILD_DIR/GV-Sprint-2/frontend/
   - yarn install
   - yarn run build
-  - cd $TRAVIS_BUILD_DIR
 
 cache:
   yarn: true
   directories:
-  - GV-Sprint-2/frontend/node_modules
+  - node_modules
 
 deploy:
   provider: s3
   access_key_id: $AWS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
-  bucket: 12grapes-prototypes
-  region: eu-central-1
+  bucket: $BUCKET_NAME
+  region: $AWS_REGION
   skip_cleanup: true
   acl: public_read
-  local_dir: $TRAVIS_BUILD_DIR/GV-Sprint-2/frontend/build
+  local_dir: ./build

@@ -9,7 +9,6 @@ import { routerReducer } from 'react-router-redux';
 import globalReducer from 'containers/App/reducer';
 import localeReducer from 'reducers/locale-reducer';
 
-
 /**
  * Creates the main reducer with the asynchronously loaded ones
  */

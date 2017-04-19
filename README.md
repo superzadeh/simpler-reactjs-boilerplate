@@ -12,7 +12,7 @@ For instructions/how-to, refer to the [react-boilerplate](https://github.com/rea
 - [Redux](http://redux.js.org/) for state management
 - [Redux Sagas](https://github.com/redux-saga/redux-saga) to manage async workflows and `workers` (aka background jobs, such as listenning to a socket)
 - [Sass](http://sass-lang.com/)
-- [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme) for testing and coverage
+- [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme) for testing and coverage (configuration is in `package.json`). 
 - [ESlint](http://eslint.org/) (configuration is in `package.json`)
 - [BabelJS](https://babeljs.io/) (configuration is in `package.json`)
 - Use [Yarn](https://yarnpkg.com/lang/en) or [NPM](https://github.com/npm/npm)
@@ -39,6 +39,8 @@ yarn start
 yarn test
 # or
 yarn test:watch
+# To update snapshots
+yarn test -- -u
 ```
 
 ## Build
